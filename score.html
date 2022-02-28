@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PuntajeAhorcado</title>
+    <link type="text/css" href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1 contenteditable="true">Juego de Ahorcado</h1>
+	<ul class="Juego de Ahorcado">
+		<!-- place for persons / isotope plugin -->
+	</ul>
+	<div class="add-person-popup">
+        <table>
+            <tr class="Jugadores">
+              <td><input type="text" id="nombre" size="15" placeholder="Nombre"></td>
+              <td class="inning current-inning"></td>
+              <td class="inning"></td>
+              <td class="inning"></td>
+              <td contenteditable='true', class="total">0</td>
+              <td>
+                <span class="table-add"><button type="button"
+                                      class="btnA">Añadir Jugador</button></span>
+              </td>
+              <td>
+                <span class="table-remove"><button type="button"
+                                      class="btnC">Borrar</button></span>
+              </td>
+            </tr>
+          </table>
+    <script src="fnc.js"></script>
+</body>
+</html>
